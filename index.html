@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio - Desarrollador Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Mi Portafolio</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">Sobre Mí</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portafolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sección Hero -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hola, soy <span class="highlight">Julián A. Sánchez</span></h1>
+                <p class="hero-subtitle">Desarrollador Web y móvil.</p>
+                <p class="hero-description">
+                    Especializado en crear experiencias web modernas y funcionales. 
+                    Apasionado por el desarrollo frontend y backend con las últimas tecnologías.
+                    <br>
+                    Amante del desarrollo Android.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">Ver Mi Trabajo</a>
+                    <a href="#contact" class="btn btn-secondary">Contactar</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-image">
+                        <img src="img/fotocv.png" alt="Foto de perfil">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Mí -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Soy un desarrollador de software apasionado en el desarrollo de aplicaciones web y móvil.
+                        Me especializo en teconologias como Java, Spring Boot, Angular y Kotlin entre otras.	
+                    </p>
+                    <p>
+                        Mi objetivo es crear soluciones tecnológicas que resuelvan problemas reales 
+                        y mejoren la experiencia del usuario. Siempre estoy aprendiendo nuevas 
+                        tecnologías y mejorando mis habilidades.
+                    </p>
+                    <p>
+                        Recientemente he empezado a estudiar en CEFP de inteligencia artificial y Big Data por la IOC 
+                        para mantenerme actualizado en las últimas tecnologías.
+                    </p>
+                    <div class="skills">
+                        <h3>Habilidades Técnicas</h3>
+                        <div class="skills-grid">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Angular</span>
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">Spring Boot</span>
+                            <span class="skill-tag">Kotlin</span>
+                            <span class="skill-tag">JetPack Compose</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <p>Comunicación efectiva</p>
+                    </div>
+                    <div class="stat-item">
+                        <p>Capacidad de resolución de problemas</p>
+                    </div>
+                    <div class="stat-item">
+                        <p>Capacidad de trabajo en equipo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Portafolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Mi Portafolio</h2>
+            <p class="section-subtitle">Mis proyectos más destacados</p>
+            
+            <div class="portfolio-grid">
+                <!-- Proyecto 1 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="img/movibo.png" alt="movibo">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-links">
+                                <a href="https://youtu.be/LHl2HfzDrwY" class="portfolio-link" title="Ver Demo">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                                <a href="https://github.com/Oteb-III/movibo-backEnd.git" class="portfolio-link" title="Ver Código">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Movibo</h3>
+                        <p>Red social para amantes de las peliculas, los libros y los videojuegos.</p>
+                        <p>Permite crear, editar y eliminar publicaciones, seguir a otros usuarios, dar like a las publicaciones y ver las publicaciones de los usuarios que sigues.</p>
+                        <p>Además permite hacer reviews a las peliculas, libros y videojuegos.</p>
+                        <div class="portfolio-tech">
+                            <span>Angular</span>
+                            <span>Spring Boot</span>
+                            <span>JWT</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 2 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="img/GOT.png"" alt="Proyecto 2">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-links">
+                                <a href="https://youtu.be/sblENvspZaA" class="portfolio-link" title="Ver Demo">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                                <a href="https://github.com/Oteb-III/getontrack" class="portfolio-link" title="Ver Código">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Get On Track</h3>
+                        <p>The game of achieving your goals.</p>
+                        <p>App de productividad que permite a los usuarios gestionar sus objetivos y progresos de manera eficiente, premiando la consecución de objetivos y fomentando la motivación.</p>
+                        <p>Pronto se podrá compartir progreso con amigos y familiares y comparar resultados.</p>
+                        <div class="portfolio-tech">
+                            <span>SQLITE</span>
+                            <span>Jetpack Compose</span>
+                            <span>Kotlin</span>
+                            <span>KMP</span>
+                        </div>
+                    </div>
+                </div>
+
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>beto.jnsn@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Ubicación</h3>
+                            <p>Reus, Tarragona</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-actions">
+                    <a href="tu-cv.pdf" class="btn btn-primary" download>
+                        <i class="fas fa-download"></i>
+                        Descargar CV
+                    </a>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/julián-sánchez-074920350" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/Oteb-III" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://bsky.app/profile/julianbto.bsky.social" target="_blank" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="mailto:beto.jnsn@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Tu Nombre. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
